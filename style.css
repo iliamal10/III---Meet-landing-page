@@ -25,9 +25,6 @@ section {
   justify-content: center;
 }
 
-.section-img {
-}
-
 .section-h1 {
   width: 445px;
   font-family: "Red Hat Display";
@@ -97,9 +94,6 @@ nav {
   gap: 14px;
 }
 
-head {
-}
-
 .head-h1 {
   font-family: "Red Hat Display";
   font-style: normal;
@@ -156,9 +150,6 @@ b {
   align-items: center;
   justify-content: center;
   margin-bottom: 72px;
-}
-
-samp {
 }
 
 .samp-img {
@@ -242,6 +233,7 @@ button:hover {
 @media (max-width: 700px) {
   body {
     padding: 0;
+    overflow-x: hidden;
   }
 
   .section-div {
@@ -282,10 +274,6 @@ button:hover {
     text-align: center;
     width: 327px;
     color: #87879d;
-  }
-
-  body {
-    overflow-x: hidden;
   }
 
   .backgraund-img {
